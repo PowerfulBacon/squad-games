@@ -18,9 +18,6 @@ public class PeopleMaker : MonoBehaviour
         MakeThePeople();
     }
 
-    /// <summary>
-    /// where babies come from
-    /// </summary>
     public void MakeThePeople()
     {
         foreach(SquadGameClient sgClient in ServerManager.connectedPeople.Values)
